@@ -1,7 +1,7 @@
-import React from 'react'
+import React from "react"
 
 export default function ComParametro(props) {
-    const status = props.nota >= 6 ? 'Aprovado' : 'Recuperação'
+    const status = props.nota >= 6 ? "Aprovado" : "Recuperação"
     return (
         <div>
             <h2>{props.titulo}</h2>
